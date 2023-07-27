@@ -1,0 +1,77 @@
+<div class="resume">
+  <div
+    class="pdf-viewer"
+    data-error-text="Failed to load resume"
+    data-ssid="qmz4a3SZH"
+    data-version="155856af70"
+  >
+    <div
+      class="pdf-viewer__page pdf-viewer__page--has-image"
+      style="
+        background-image: url('https://ssr.resume.tools/to-image/ssid-qmz4a3SZH-1.webp?cache=155856af70&amp;size=1125');
+      "
+    >
+      <div class="pdf-viewer__page-links">
+        <a
+          class="pdf-viewer__page-link"
+          href="mailto:dhruvikalpesh2001@gmail.com"
+          rel="noreferrer noopener"
+          style="
+            left: 7.0555%;
+            top: 72.2772%;
+            width: 19.8226%;
+            height: 1.66293%;
+          "
+        ></a
+        ><a
+          class="pdf-viewer__page-link"
+          href="https://www.linkedin.com/in/dhruvi-shah-39b1b01a4/"
+          rel="noreferrer noopener"
+          target="_blank"
+          style="
+            left: 7.0555%;
+            top: 65.6382%;
+            width: 19.8226%;
+            height: 1.66092%;
+          "
+        ></a
+        ><a
+          class="pdf-viewer__page-link"
+          href="https://github.com/Dhruvi2416"
+          rel="noreferrer noopener"
+          target="_blank"
+          style="
+            left: 7.0555%;
+            top: 63.3834%;
+            width: 19.8226%;
+            height: 1.66092%;
+          "
+        ></a
+        ><a
+          class="pdf-viewer__page-link"
+          href="https://www.instagram.com/ddhruvvi.shah/?next=%252Fdhruvi16%252F"
+          rel="noreferrer noopener"
+          target="_blank"
+          style="
+            left: 7.0555%;
+            top: 61.1286%;
+            width: 19.8226%;
+            height: 1.66092%;
+          "
+        ></a
+        ><a
+          class="pdf-viewer__page-link"
+          href="https://www.blogger.com/blog/posts/3011813800244506722"
+          rel="noreferrer noopener"
+          target="_blank"
+          style="
+            left: 7.0555%;
+            top: 58.8737%;
+            width: 19.8226%;
+            height: 1.66092%;
+          "
+        ></a>
+      </div>
+    </div>
+  </div>
+</div>

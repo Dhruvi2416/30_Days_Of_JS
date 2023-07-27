@@ -22,27 +22,27 @@
 // }
 // console.log(map)
 
-// const a = [4, 5, 8, 9]
-// const b = [3, 4, 5, 7]
+const a = [4, 5, 8, 9]
+const b = [3, 4, 5, 7]
 
-//Find a union b
-// const A = new Set(a);
-// const B = new Set(b);
-// const c =[...a,...b];
-// const C = new Set(c);
-// console.log(C)
+// Find a union b
+const A = new Set(a);
+const B = new Set(b);
+const c =[...a,...b];
+const C = new Set(c);
+console.log(c)
 
 //Find a intersection b
 
 // const intersection = a.filter((num)=>B.has(num))
 // console.log(intersection);
 
-const countries_data= require("./countries_data")
+const countries_data = require("./countries_data");
 // const langArr=[];
 
 // for(country of countries_data){
 //     const languages = country.languages;
-    
+
 //     for(let language of languages){
 //         langArr.push(language)
 //     }
@@ -51,7 +51,6 @@ const countries_data= require("./countries_data")
 // const languages=new Set(langArr);
 
 // console.log(languages);
-
 
 // *** Use the countries data to find the 10 most spoken languages:
 
@@ -79,26 +78,30 @@ const countries_data= require("./countries_data")
 //   {Arabic:25}
 //   ]
 
+// function mostSpokenLanguages(countries, n) {
+//   let languageSpoken = {}; //ahia me khali object rakhyu jethi ama Language:count ave
+//   //ahia languages dynamic che ekle [] use karyu che array nai lidhi languageSpoken ma bcoz ama kai avse ee value khbr nthi plus inc kemnu karavanu
+//   for (let country of countries) {
+//     let languages = country.languages; //aa ek array che
+//     for (let language of languages) {
+//       if (languageSpoken[language]) {
+//         //agar object ma aa language che
+//         languageSpoken[language]++; //to eni count vadhoro
+//       } else {
+//         languageSpoken[language] = 1; //nai to initialize karo 1 thi
+//       }
+//     }
+//   }
+//   let sortedLanguages = Object.entries(languageSpoken).sort(
+//     (a, b) => b[1] - a[1]
+//   ); //sort kri count na based pr desc ma
+//   let firstNthLanguagesSpoken = sortedLanguages(0, n); //jekla joita hta ekla j lidha
+//   let results = firstNthLanguagesSpoken.map((eachLang) => ({
+//     language: eachLang[0],
+//     count: eachLang[1],
+//   })); //aa format ma joitu htu ekle
+//   // let finalResults = results.map(result=>new Set(Object.values(result)))
+//   return results;
+// }
 
-function mostSpokenLanguages(countries,n){
-let languageSpoken={};//ahia me khali object rakhyu jethi ama Language:count ave
-//ahia languages dynamic che ekle [] use karyu che array nai lidhi languageSpoken ma bcoz ama kai avse ee value khbr nthi plus inc kemnu karavanu
-for(let country of countries){
-    let languages = country.languages;//aa ek array che
-  for(let language of languages){
-    if(languageSpoken[language]){//agar object ma aa language che
-        languageSpoken[language]++;//to eni count vadhoro
-    }
-    else{
-        languageSpoken[language]=1;//nai to initialize karo 1 thi
-    }
-  }
-}
-let sortedLanguages = Object.entries(languageSpoken).sort((a,b)=>b[1]-a[1])//sort kri count na based pr desc ma
-let firstNthLanguagesSpoken = sortedLanguages.splice(0,n) //jekla joita hta ekla j lidha
-let results = firstNthLanguagesSpoken.map((eachLang)=>({language:eachLang[0],count:eachLang[1]}))//aa format ma joitu htu ekle
-// let finalResults = results.map(result=>new Set(Object.values(result)))
-return results
-}
-
-console.log(mostSpokenLanguages(countries_data,20))
+// console.log(mostSpokenLanguages(countries_data, 20));
